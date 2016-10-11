@@ -20,6 +20,5 @@ If you like the project and would like to donate some of your time and expertise
 
 If you cannot produce code but would still like to contrubute, you can donate crypto to any of the addresses listed below which is also very much appreciated.
 
-Bitcoin - [14qQtzyUayEj97JhizmCqwYfovqL6uLtW](https://blockchain.info/address/14qQtzyUayEj97JhizmCqwYfovqL6uLtWj "view address")
-
+Bitcoin - [14qQtzyUayEj97JhizmCqwYfovqL6uLtW](https://blockchain.info/address/14qQtzyUayEj97JhizmCqwYfovqL6uLtWj "view address")  
 Zcoin - [a5QeZfeDZrsuaGx47B8mfrQRXWJBEXxuye](https://zcoin.rocks/address/a5QeZfeDZrsuaGx47B8mfrQRXWJBEXxuye "view address")
