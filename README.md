@@ -1,7 +1,7 @@
 # zcoin
 Docker container wrapper for Zcoin daemon
 
-debian, jessie
+ubuntu, 14.04
 
 ## Dependencies
 [docker](https://docs.docker.com/engine/installation/ "docker engine")
