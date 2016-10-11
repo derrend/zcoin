@@ -22,4 +22,4 @@ If you cannot produce code but would still like to contrubute, you can donate cr
 
 Bitcoin - [14qQtzyUayEj97JhizmCqwYfovqL6uLtW](https://blockchain.info/address/14qQtzyUayEj97JhizmCqwYfovqL6uLtWj "view address")
 
-Zcoin - <coming_soon>
+Zcoin - [a5QeZfeDZrsuaGx47B8mfrQRXWJBEXxuye](https://zcoin.rocks/address/a5QeZfeDZrsuaGx47B8mfrQRXWJBEXxuye "view address")
