@@ -13,7 +13,7 @@ Populate your config file at `~/.zcoin/zcoin.conf` and start the deamon:
 
 Run commands on the daemon:
 
-    docker exec -t zcoin zcoind <command>
+    docker exec -it zcoin zcoind <command>
 
 ## Donate
 If you like the project and would like to donate some of your time and expertise by contributing to the code base, that would be fantastic and very much appreciated.
