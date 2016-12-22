@@ -9,11 +9,11 @@ ubuntu, 14.04
 ## Instructions
 Populate your config file at `~/.zcoin/zcoin.conf` and start the deamon:
 
-    docker run -d --name zerocoin -v /home/$USER/.zcoin:/root/.zcoin derrend/zcoin
+    docker run -d --name zcoin -v /home/$USER/.zcoin:/root/.zcoin derrend/zcoin
 
 Run commands on the daemon:
 
-    docker exec -t zerocoin zcoind <command>
+    docker exec -t zcoin zcoind <command>
 
 ## Donate
 If you like the project and would like to donate some of your time and expertise by contributing to the code base, that would be fantastic and very much appreciated.
