@@ -29,7 +29,8 @@ RUN apt update \
         libgmp3-dev \
         libevent-dev \
  && cd /root \
- && git clone https://github.com/zcoinofficial/zcoin.git \
+# && git clone https://github.com/zcoinofficial/zcoin.git \
+ && git clone -b dev https://github.com/zcoinofficial/zcoin.git \
  && cd zcoin/src \
  && make -f makefile.unix USE_UPNP=- RELEASE=1 STATIC=1 \
  && strip zcoind \
