@@ -1,7 +1,7 @@
 # zcoin
 Docker container wrapper for Zcoin daemon
 
-ubuntu, 14.04
+alpine, edge
 
 ## Dependencies
 [docker](https://docs.docker.com/engine/installation/ "docker engine")
