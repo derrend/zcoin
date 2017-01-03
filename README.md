@@ -26,6 +26,11 @@ Default config file location:
 
     ~/.zcoin/zcoin.conf
 
+To use zcoind, you must set an rpcuser and rpcpassword in the configuration file:
+
+    rpcuser=zcoinrpc
+    rpcpassword=<Long_Complicated_Pa55word>  # change this
+
 ## Donate
 If you like the project and would like to donate some of your time and expertise by contributing to the code base, that would be fantastic and very much appreciated.
 
