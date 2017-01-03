@@ -1,0 +1,7 @@
+version: '2'
+services:
+  zcoin:
+    build: .
+    image: derrend/zcoin
+    volumes:
+      - /home/$USER/.zcoin:/root/.zcoin:z
