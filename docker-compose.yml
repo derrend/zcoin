@@ -1,6 +1,8 @@
 version: '2'
 services:
   zcoin:
+    ## Uncomment to build from local Dockerfile
+    #build: .
     image: derrend/zcoin
     volumes:
       - /home/$USER/.zcoin:/root/.zcoin:z
