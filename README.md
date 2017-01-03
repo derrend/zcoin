@@ -1,19 +1,30 @@
-# zcoin
+# Zcoin
 Docker container wrapper for Zcoin daemon
 
-alpine, edge
+## Base
+[alpine:edge](https://hub.docker.com/r/library/alpine/)
 
 ## Dependencies
-[docker](https://docs.docker.com/engine/installation/ "docker engine")
+[docker](https://docs.docker.com/engine/installation/ "docker engine")  
+[docker-compose](https://docs.docker.com/compose/install/ "docker-compose")
 
 ## Instructions
-Populate your config file at `~/.zcoin/zcoin.conf` and start the deamon:
+Start the deamon:
 
-    docker run -d --name zcoin -v /home/$USER/.zcoin:/root/.zcoin derrend/zcoin
+    docker-compose up -d
 
 Run commands on the daemon:
 
-    docker exec -it zcoin zcoind <command>
+    docker-compose exec zcoin zcoind <command>
+
+Stop the daemon:
+
+    docker-compose down
+
+## Config
+Default config file location:
+
+    ~/.zcoin/zcoin.conf
 
 ## Donate
 If you like the project and would like to donate some of your time and expertise by contributing to the code base, that would be fantastic and very much appreciated.
