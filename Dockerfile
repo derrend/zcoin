@@ -17,12 +17,12 @@ RUN apk --no-cache add alpine-sdk openssl-dev boost-dev db-dev \
     && cd zcoin/src \
     && make -f makefile.unix USE_UPNP=- RELEASE=1 \
     && strip zcoind \
-    && cp zcoind /usr/local/bin \
+    && mv zcoind /usr/local/bin \
     ##
     && cd \
     && rm -rf * \
     && apk del alpine-sdk
 
 VOLUME ["/root/.zcoin"]
-ENTRYPOINT ["zcoind"]
+ENTRYPOINT ["/usr/local/bin/zcoind"]
 EXPOSE 18888 8888 18168 8168
