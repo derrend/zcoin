@@ -9,15 +9,19 @@ Docker container wrapper for Zcoin daemon
 [docker-compose](https://docs.docker.com/compose/install/ "docker-compose")
 
 ## Instructions
-Start the deamon:
+Start the container:
 
     docker-compose up -d
 
-Run commands on the daemon:
+Check the status of the container:
+
+    docker-compose ps
+
+Run commands on the container:
 
     docker-compose exec zcoin zcoind <command>
 
-Stop the daemon:
+Stop the container:
 
     docker-compose down
 
