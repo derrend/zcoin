@@ -1,12 +1,13 @@
 # Zcoin
 Docker container wrapper for Zcoin daemon
 
-## Base
-[alpine:edge](https://hub.docker.com/r/library/alpine/)
-
 ## Dependencies
 [docker](https://docs.docker.com/engine/installation/ "docker engine")  
 [docker-compose](https://docs.docker.com/compose/install/ "docker-compose")
+
+## Container Specifications
+Base: [alpine:edge](https://hub.docker.com/r/library/alpine/ "base container")  
+Size: 117 MB
 
 ## Instructions
 Start the container:
