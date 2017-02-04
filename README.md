@@ -7,7 +7,8 @@ Docker container wrapper for Zcoin daemon
 
 ## Container Specifications
 Base: [alpine:edge](https://hub.docker.com/r/library/alpine/ "base container")  
-Size: 10 MB
+Image: [![](https://images.microbadger.com/badges/image/derrend/zcoin.svg)](https://microbadger.com/images/derrend/zcoin "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/derrend/zcoin.svg)](https://microbadger.com/images/derrend/zcoin "Get your own version badge on microbadger.com")
 
 ## Instructions
 Start the container:
